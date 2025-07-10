@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This project implements a basic 8-bit Direct Digital Synthesiser (DDS) that outputs a digitized sine wave with a user-defined frequency.
+This project implements a basic 8-bit Direct Digital Synthesizer (DDS) that outputs a digitized sine wave with a user-defined frequency.
 
 - The user provides an 8-bit phase increment (`phase_inc`) via the `ui_in[7:0]` pins
 - A rising edge on `uio_in[0]` (`load_freq`) loads this value into DDS
